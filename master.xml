@@ -156,19 +156,16 @@ Your sources have been sync'd successfully.
            name="coreos/coreos-metadata"
            groups="minilayout" />
            
-           
-+  <remote name="github-https" fetch="https://github.com" />
+  <remove-project name="coreos/scripts" />
+  <project path="src/scripts"
+           name="prodatakey/coreos-scripts"
+           remote="github"
+           groups="minilayout" />
 
-+  <remove-project name="coreos/scripts" />
-+  <project path="src/scripts"
-+           name="prodatakey/coreos-scripts"
-+           remote="github-https"
-+           groups="minilayout" />
-+
-+  <remove-project name="coreos/coreos-overlay" />
-+  <project path="src/third_party/coreos-overlay"
-+           name="prodatakey/coreos-coreos-overlay"
-+           remote="github-https"
-+           groups="minilayout" />
+  <remove-project name="coreos/coreos-overlay" />
+  <project path="src/third_party/coreos-overlay"
+           name="prodatakey/coreos-coreos-overlay"
+           remote="github"
+           groups="minilayout" />
 
 </manifest>
