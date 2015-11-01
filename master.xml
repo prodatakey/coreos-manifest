@@ -164,7 +164,7 @@ Your sources have been sync'd successfully.
 
   <remove-project name="coreos/coreos-overlay" />
   <project path="src/third_party/coreos-overlay"
-           name="prodatakey/coreos-coreos-overlay"
+           name="prodatakey/coreos-overlay"
            remote="github"
            groups="minilayout" />
 
